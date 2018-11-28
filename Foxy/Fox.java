@@ -14,7 +14,7 @@ public class Fox {
     int xDir, yDir;
     boolean isMoving;
     final int SRARTSIZE = 2, STARTX = 150, STARTY = 150;
-    final BufferedImage iFox = ImageIO.read(new File("D:\\Programowanie\\Java\\src\\Foxy\\fox2.png"));
+    final BufferedImage iFox = ImageIO.read(new File(".\\fox2.png"));
 
 
 

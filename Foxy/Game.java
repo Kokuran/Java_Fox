@@ -25,8 +25,8 @@ public class Game extends Applet implements Runnable, KeyListener {
     double counter;
     Thread cd;
     private BufferedImage imgs;
-    final BufferedImage iBlack = ImageIO.read(new File("D:\\Programowanie\\Java\\src\\Foxy\\1_max.jpg"));
-    final BufferedImage iGrass = ImageIO.read(new File("D:\\Programowanie\\Java\\src\\Foxy\\grass.jpg"));
+    final BufferedImage iBlack = ImageIO.read(new File(".\\1_max.jpg"));
+    final BufferedImage iGrass = ImageIO.read(new File(".\\grass.jpg"));
 
 
 

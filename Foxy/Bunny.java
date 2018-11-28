@@ -10,8 +10,8 @@ public class Bunny {
 
     private  int x,y,score,den;
     private Fox fox;
-    final BufferedImage iDen = ImageIO.read(new File("D:\\Programowanie\\Java\\src\\Foxy\\cave.png"));
-    final BufferedImage iRabbit = ImageIO.read(new File("D:\\Programowanie\\Java\\src\\Foxy\\rabbit.png"));
+    final BufferedImage iDen = ImageIO.read(new File(".\\cave.png"));
+    final BufferedImage iRabbit = ImageIO.read(new File(".\\rabbit.png"));
 
     public Bunny(Fox s) throws IOException {
         x = 30+ (int)(Math.random()* 385);
